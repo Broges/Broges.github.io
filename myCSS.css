@@ -2,3 +2,21 @@ body {
     text-align: center;
     background-color: silver;
 }
+
+img {
+    background: transparent;
+    background-color: transparent;
+    border: none;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+div {
+    font-size: 22px;
+    background-color: grey;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
