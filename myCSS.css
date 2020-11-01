@@ -60,6 +60,7 @@ nav {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    margin-top:0.3%;
 
 }
 .nav-social-link img{
@@ -171,7 +172,7 @@ img {
 .about-me-info {
     display: flex;
     width:70%;
-    padding-left:15%;
+    padding-left:10%;
 }
 
 .about-me-header hr {
@@ -187,26 +188,28 @@ img {
 }
 
 .about-me-text {
-    display:flex;
-    border: 1px;
-    border-style: solid;
-    border-color: rgba(0,0,0,0.2);
-    
-    width:41%;
-    margin-left:22%;
+    align-self:center;
+
+    width:50%;
+    margin-left:15.4%;
     background-color:white;
+    color: rgb(78, 78, 78);
     font-family:Arial, Helvetica, sans-serif;
     padding:12px;
-    font-size:15px;
-    text-align: center;
+    font-size:18px;
+    text-align: left;
+    z-index: 1;
 }
 
 .about-me-photo {
     align-self: center;
+    padding-left:12%;
+    z-index: 2;
 }
 
 .experience-timeline {
     background-color: rgb(241, 241, 241);
+    padding-bottom: 30px;
 }
 
 .experience-timeline-header {
