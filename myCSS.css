@@ -323,6 +323,7 @@ img {
     border-color:rgba(0, 0, 0,1); 
     background-color:rgb(241, 241, 241);
     width:45%;
+    margin-bottom:30px;
 }
 
 .project-name h2{
@@ -347,4 +348,9 @@ img {
 
 .project-overview {
     width:50%;
+}
+
+.footer-class {
+    padding:32px;
+    background-color:black;
 }
