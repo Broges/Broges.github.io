@@ -362,4 +362,14 @@ img {
 .footer-class {
     padding:60px;
     background-color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:flex;
+    color: white;
+    justify-content: space-between;
+}
+
+
+.footer-contact-me {
+    text-align: right;
+    
 }
