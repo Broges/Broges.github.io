@@ -262,3 +262,77 @@ img {
     padding:12px;
     font-size:15px;
 }
+
+
+.portfolio-section {
+    background-color:white;
+}
+
+.portfolio-header {
+    text-align:center;
+    font-size: 30px;
+    padding:60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height:8vh;
+    width:30%;
+    padding-right:35%;
+    padding-left:35%;
+}
+
+.portfolio-header hr {
+    margin: 0;
+    align-self:stretch;
+    border:1px;
+    height:1px;
+    color:black;
+    margin-top:15px;
+    background-color: grey;
+    width:50%;
+    margin-left:25%;
+}
+
+.project-container {
+    display: flex;
+    width:80%;
+    margin-left:10%;
+}
+
+.project-image {
+    border:1px;
+    border-style: solid;
+    border-color:rgba(0, 0, 0,0.4); 
+    width:50%;
+
+}
+
+.project-image img {
+    width:100%;
+}
+
+
+.project {
+    margin-left:5%;
+    display:flex;
+    border:3px;
+    border-style: solid;   
+    border-color:rgba(0, 0, 0,1); 
+    background-color:rgb(241, 241, 241);
+}
+
+.project-name h2{
+    text-align: center;
+}
+
+.project-text p{
+    margin-left:10px;
+    text-align: left;
+}
+
+.project-text h4 {
+    text-align: center;
+    margin-top:40%;
+}
+
+.project-overview {
+    width:50%;
+}
