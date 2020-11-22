@@ -93,7 +93,7 @@ nav {
 img {
     background-color: transparent;
     border: none;
-
+    max-height:100%;
 }
 
 
@@ -150,6 +150,7 @@ img {
     text-align: center;
     color: white;
     max-width: 100%;
+    max-height: 100%;
 
 }
 
@@ -160,6 +161,39 @@ img {
 }
 
 
+.skills {
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.skills-header {
+
+    padding-top:20px;
+    text-align:center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height:8vh;
+    width:40%;
+    padding-right:30%;
+    padding-left:30%;
+}
+
+.skills-section {
+    display: flex;
+    padding-bottom: 15px;
+    width:60%;
+    margin-left:20%;
+    justify-content: space-between;
+    
+}
+
+.skills-header hr {
+    width:100%;
+    padding-left:32.5%;
+    padding-right:32.5%;
+    background-color: black;
+}
 
 .about-me-section {
     padding-bottom:30px;
