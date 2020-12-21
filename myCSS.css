@@ -181,11 +181,15 @@ img {
 
 .skills-section {
     display: flex;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     width:58%;
     margin-left:20%;
     justify-content: space-between;
     
+}
+
+.skills-section li {
+    color: blue;
 }
 
 .skills-header hr {
