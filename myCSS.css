@@ -162,7 +162,7 @@ img {
 
 
 .skills {
-    background-color: rgb(241, 241, 241);
+    background-color:rgb(207,207,207);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -250,7 +250,7 @@ img {
 }
 
 .experience-timeline {
-    background-color: rgb(241, 241, 241);
+    background-color:rgb(207,207,207);
     padding-bottom: 30px;
 }
 
@@ -314,7 +314,7 @@ img {
 
 
 .portfolio-section {
-    background-color:white;
+    background-color: rgb(241, 241, 241);
     padding-bottom:30px;
 }
 
